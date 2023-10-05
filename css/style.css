@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+#main-form{
+    background-color: rgb(235, 75, 47);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.form-flex{
+    display: flex;
+    justify-content:center;
+    height: 100%;
+    align-items: center;
+}
+.form-bcg{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(198, 220, 240);
+    display: flex;
+    justify-content: space-evenly;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-input h2{
+    font-family: poppins;
+}
+.form-input h5{
+    font-family: poppins;
+    color: gray;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.image img{
+    width: 180px;
+    height: 300px;
+}
+.form-input h5 a{
+text-decoration: none;
+}
+.btn button{
+    padding: 10px 15px;
+    background-color: rgb(37, 119, 226);
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-weight: 700px;
+    font-style: poppins;
+    cursor: pointer;
+   
+}
